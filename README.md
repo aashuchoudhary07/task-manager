@@ -4,7 +4,7 @@ A simple and responsive To-Do List application built using HTML, CSS, and JavaSc
 
 ## Live Demo
 
-[Open Task Manager](https://task-managerbyaashu.netlify.app/)
+https://task-managerbyaashu.netlify.app/
 
 ## Features
 
