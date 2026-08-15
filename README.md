@@ -2,6 +2,10 @@
 
 A simple and responsive To-Do List application built using HTML, CSS, and JavaScript. It allows users to create and manage tasks while keeping task data saved in the browser.
 
+## Screenshot
+
+![Task Manager Screenshot](screenshot.jpg)
+
 ## Live Demo
 
 https://task-managerbyaashu.netlify.app/
