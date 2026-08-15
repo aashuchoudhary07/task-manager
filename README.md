@@ -1,58 +1,75 @@
-# 📝 Task Manager
+# Task Manager
 
-A responsive client-side To-Do List application built with **HTML, CSS, and JavaScript**. The application helps users create, manage, filter, and track tasks while automatically saving their data in the browser.
+A simple and responsive To-Do List application built using HTML, CSS, and JavaScript. It allows users to create and manage tasks while keeping task data saved in the browser.
 
-## 🚀 Live Demo
+## Live Demo
 
-[Task Manager](task-managerbyaashu.netlify.app)
+[Open Task Manager](https://task-managerbyaashu.netlify.app/)
 
-## ✨ Features
+## Features
 
-* Create new tasks
-* Edit existing tasks
+* Add new tasks
+* Edit tasks
 * Delete tasks
-* Mark tasks as completed and restore them
-* Filter tasks by All, Active, and Completed
-* Search tasks in real time
-* Set due dates
-* Set task priority: High, Medium, and Low
-* Progress bar for completed tasks
-* Clear all completed tasks
-* Save tasks automatically using `localStorage`
-* Dark and Light mode
-* Toast notifications
-* Responsive design for mobile and desktop
+* Mark tasks as completed
+* Restore completed tasks
+* Search tasks
+* Filter tasks by:
 
-## 🛠️ Technologies Used
+  * All
+  * Active
+  * Completed
+* Set task priority
+* Add due dates
+* View task completion progress
+* Clear completed tasks
+* Dark and Light theme
+* Toast notifications
+* Data persistence using browser LocalStorage
+* Responsive layout for different screen sizes
+
+## Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript
 * DOM Manipulation
-* Browser LocalStorage
+* LocalStorage
 
-## 💾 Data Persistence
+## How It Works
 
-Tasks are stored in the browser using `localStorage`, so the user's tasks remain available even after refreshing or reopening the browser.
+Tasks are managed using JavaScript and stored as objects in an array. Whenever a task is added, edited, completed, or deleted, the task list is updated and saved to LocalStorage.
 
-## 📱 Responsive Design
+Because the data is stored in the browser, tasks remain available after refreshing the page.
 
-The interface is designed to work across desktop, tablet, and mobile screen sizes.
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 task-manager/
+│
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 ```
 
-## 🎯 Project Objective
+## Purpose
 
-This project was developed to practice JavaScript logic, DOM manipulation, event handling, CRUD operations, state management, filtering, and client-side data persistence.
+This project was created to practice JavaScript fundamentals such as:
 
-## 👨‍💻 Author
+* DOM manipulation
+* Event handling
+* CRUD operations
+* Array methods
+* Filtering and searching
+* State management
+* LocalStorage
+* Responsive UI design
+
+## Author
 
 **Aashu Choudhary**
+
+---
+
+If you find this project useful, feel free to explore the code and try the live demo.
